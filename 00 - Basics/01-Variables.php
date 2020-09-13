@@ -29,14 +29,4 @@ $my_age = 39;
 echo $my_name . " " . $my_surname . " " . $my_age ."\n";
 
 
-
-
-
-
-
-require 'index.view.php';
-
-
-
-
-
+//require 'index.view.php';
