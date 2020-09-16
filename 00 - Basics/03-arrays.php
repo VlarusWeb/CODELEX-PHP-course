@@ -36,7 +36,7 @@ echo "\n";
 
 //****************************************** EXERCISE 4
 
-$items = [
+$persons = [
     [
         [
             "name" => "John",
@@ -51,10 +51,10 @@ $items = [
     ]
 ];
 
-echo $items[0][1]['name'] . ' ' . $items[0][1]['surname'] . ' ' . $items[0][1]['age'];
+echo $persons[0][1]['name'] . ' ' . $persons[0][1]['surname'] . ' ' . $persons[0][1]['age'];
 
 echo "\n";
 
 //****************************************** EXERCISE 5
 
-echo $items[0][0]['name'] . ' & ' . $items[0][1]['name'] . ' ' . $items[0][1]['surname'] . "'s";
+echo $persons[0][0]['name'] . ' & ' . $persons[0][1]['name'] . ' ' . $persons[0][1]['surname'] . "'s";
