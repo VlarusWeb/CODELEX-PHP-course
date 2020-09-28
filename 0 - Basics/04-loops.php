@@ -16,10 +16,10 @@ echo "\n";
 
 //********************************************** EXERCISE 2
 
-$number_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+$numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-for ($i = 0; $i < count($number_array); $i++) {
-    echo $number_array[$i] . ",";
+for ($i = 0; $i < count($numberArray); $i++) {
+    echo $numberArray[$i] . ",";
 }
 
 echo "\n";
@@ -37,9 +37,9 @@ echo "\n";
 
 //********************************************** EXERCISE 4
 
-$int_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+$intArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-foreach ($int_array as $integer) {
+foreach ($intArray as $integer) {
     if ($integer %3 == 0) {
         echo $integer . ",";
     }
@@ -49,7 +49,7 @@ echo "\n";
 
 //********************************************** EXERCISE 5
 
-$multiple_person = [
+$multiplePerson = [
     'markiz' => [
         'name' => 'Markiz',
         'surname' => 'Melnikovs',
@@ -76,6 +76,6 @@ $multiple_person = [
     ]
 ];
 
-foreach ($multiple_person as $person_dates) {
-    echo "{$person_dates['name']} {$person_dates['surname']} age:{$person_dates['age']} date of birth:{$person_dates['birthday']}\n";
+foreach ($multiplePerson as $personDates) {
+    echo "{$personDates['name']} {$personDates['surname']} age:{$personDates['age']} date of birth:{$personDates['birthday']}\n";
 }

@@ -5,9 +5,9 @@
 
 //****************************************** EXERCISE 1
 
-$number_arr = [ 2, 3, 4];
+$numberArr = [ 2, 3, 4];
 
-echo array_sum($number_arr);
+echo array_sum($numberArr);
 
 echo "\n";
 

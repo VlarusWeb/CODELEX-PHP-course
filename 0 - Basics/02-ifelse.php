@@ -43,9 +43,9 @@ echo "\n";
 
 //*********************************** EXERCISE 4
 
-$test_item = 40;
+$testItem = 40;
 
-if ($test_item >1 && $test_item <50 && $test_item %2 == 0) {
+if ($testItem >1 && $testItem <50 && $testItem %2 == 0) {
     echo "number is greater than 1 smaller than 50 and is even";
 } else {
     echo "number is odd";
@@ -57,11 +57,11 @@ echo "\n";
 
 $integer = 50;
 
-$range_start = 25;
+$rangeStart = 25;
 
-$range_stop = 75;
+$rangeStop = 75;
 
-if ($integer > $range_start && $integer < $range_stop) {
+if ($integer > $rangeStart && $integer < $rangeStop) {
     echo "CORRECT";
 } else {
     echo "INCORRECT";
@@ -71,7 +71,7 @@ echo "\n";
 
 //********************************** EXERCISES 6
 
-$plate_number = "KF 6281";
+$plateNumber = "KF 6281";
 
 switch ($plate_number) {
     case "BH 4389";

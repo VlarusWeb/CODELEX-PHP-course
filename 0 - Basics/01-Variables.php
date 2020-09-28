@@ -10,7 +10,7 @@ $float = 10.10;
 
 $string = 'Hello World!';
 
-$data_types = [$integer, $float, $string];
+$dataTypes = [$integer, $float, $string];
 
 echo $integer,$float,$string;
 
@@ -20,13 +20,13 @@ var_dump($data_types);
 
 //*********************************   EXERCISE-3
 
-$my_name = 'Vladimirs';
+$myName = 'Vladimirs';
 
-$my_surname = 'Babesko';
+$mySurname = 'Babesko';
 
-$my_age = 39;
+$myAge = 39;
 
-echo $my_name . " " . $my_surname . " " . $my_age ."\n";
+echo $myName . " " . $mySurname . " " . $myAge ."\n";
 
 
 //require 'index.view.php';
